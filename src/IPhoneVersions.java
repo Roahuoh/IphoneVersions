@@ -72,7 +72,7 @@ public class IPhoneVersions {
             case 1 -> iphones.get(0).displayDetails();
             case 2 -> iphones.get(1).displayDetails();
             case 3 -> iphones.get(2).displayDetails();
-            default -> System.out.println("Invalid choice!");
+            default -> System.out.println("wrong choice!");
         }
     }
 }
